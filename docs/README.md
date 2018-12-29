@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage:  ![An image](./superman.jpg)
+heroImage:  /superman.jpg
 actionText: 快速上手 →
 actionLink: /zh/guide/
 features:

@@ -5,6 +5,7 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/guide/' },
+            { text: 'Learn', link: '/learn/' },
             {
                 text: 'Languages',
                 items: [
@@ -13,13 +14,28 @@ module.exports = {
                 ]
             },
             { text: 'External', link: 'https://google.com' }
-        ]
-    },
-    configureWebpack: {
-        resolve: {
-            alias: {
-                '@alias': __dirname + '/'
-            }
+        ],
+        sidebar: {
+            '/guide/': [
+                '/guide/',
+                '/guide/installation',
+                {
+                    title: 'Basics',
+                    collapsable: false,
+                    children: [
+                        '/guide/prototyping',
+                        '/guide/creating-a-project',
+                        '/guide/plugins-and-presets',
+                        '/guide/cli-service'
+                    ]
+                },
+                {
+                    title: 'Group 2',
+                    children: [
+                        '/guide/test'
+                    ]
+                }
+            ]
         }
     }
 }

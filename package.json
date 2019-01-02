@@ -6,7 +6,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy": "/Users/wanghongjun/Documents/github/blog/docs/deploy.sh"
+    "deploy": "./deploy.sh"
   },
   "keywords": [],
   "author": "",

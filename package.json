@@ -4,7 +4,8 @@
   "description": "博客项目",
   "main": "index.js",
   "scripts": {
-    "dev": "npx vuepress dev docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",

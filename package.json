@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/whjway/whj-blog#readme",
   "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.2",
+    "@vuepress/theme-blog": "^2.2.0",
+    "@vuepress/theme-vue": "^1.4.0",
     "vuepress": "^1.4.0"
   }
 }

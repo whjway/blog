@@ -14,7 +14,7 @@
 ### github
 
 1.创建仓库，仓库名必须是你的GitHub名，仓库名必须以.github.io结尾
-![](./imgs/github.png)
+![avatar](imgs/github.png)
 
 2.根据 [vuepress部署](https://vuepress.vuejs.org/zh/guide/deploy.html#github-pages) 配置好发布脚本
 

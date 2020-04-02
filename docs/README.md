@@ -1,11 +1,3 @@
-## 112
-
-
----
-title: Blogging Like a Hacker
-lang: en-US
----
-
 ---
 home: true
 heroText: Hero 标题

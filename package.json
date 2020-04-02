@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "博客项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/whjway/whj-blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "whjway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whjway/whj-blog/issues"
+  },
+  "homepage": "https://github.com/whjway/whj-blog#readme"
+}

@@ -158,7 +158,7 @@ $(document).ready(function () {
     - 列表一
     - 列表二
 ```
-### GFM task list ()
+### GFM task list ([GitHub Flavored Markdown](https://www.dazhuanlan.com/2019/10/15/5da5890f8e1ba/))
 - [x] GFM task list 1
 - [x] GFM task list 2
 - [ ] GFM task list 3
@@ -178,6 +178,44 @@ $(document).ready(function () {
 - [ ] GFM task list 4
     - [ ] GFM task list 4-1
     - [ ] GFM task list 4-2
+```
+## 表格 Tables
+| Function name | Description                    | width|
+| -------------: | :---------------------------- |:---:|
+| `help()`      | Display the help window.       |1|
+| `destroy()`   | **Destroy your computer!**     |2|
+```markdown
+| Function name | Description                    | width|
+| -------------: | :---------------------------- |:---:|
+| `help()`      | Display the help window.       |1|
+| `destroy()`   | **Destroy your computer!**     |2|
+```
+
+## 高级技巧
+
+### 支持html元素
+不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。  
+目前支持的 HTML 元素有：`<kbd> <b> <i> <em> <sup> <sub> <br>`等。  
+示例：  
+使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
+```markdown
+使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
+```
+### 支持Emoji
+[emoji大全](https://emojipedia.org/)  
+示例：  
+:smiley:😭
+```markdown
+:smiley:😭
+```
+### 转义
+Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符：  
+示例：  
+**文本加粗** 
+\*\* 正常显示星号 \*\*
+```markdown
+**文本加粗** 
+\*\* 正常显示星号 \*\*
 ```
 ## FAQ
 ### 引用本地图片
@@ -190,4 +228,5 @@ Markdown文件与imgs同一层级
 ## 参考文献
 1. [RUNOOB.COM](https://www.runoob.com/markdown/md-title.html)
 2. [mdeditor](https://www.mdeditor.com/)
+3. [GFM格式Markdown简介](https://www.dazhuanlan.com/2019/10/15/5da5890f8e1ba/)
 

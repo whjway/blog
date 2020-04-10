@@ -40,7 +40,7 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 ```
-
-### 任务列表
-- [x] Markdown说明
-- [ ] vuepress拓展
+## 参考文献
+1. [vupress](https://vuepress.vuejs.org/zh/)
+2. [awesome vupress](https://github.com/vuepressjs/awesome-vuepress#plugins)
+3. [plugin](https://v1.vuepress.vuejs.org/plugin/official/plugin-back-to-top.html)

@@ -4,6 +4,8 @@ module.exports = {
     title: 'whjway',
     description: 'Blog',
     themeConfig: {
+        lastUpdated: 'Last Updated', // string | boolean
+        smoothScroll: true,
         nav: [
             // { text: '主页', link: '/' },
             // { text: 'Guide', link: '/guide/' },
@@ -13,7 +15,14 @@ module.exports = {
         sidebar: {
             '/': [
                 {
-                    title: 'vue相关',
+                    title: '前端',
+                    collapsable: false,
+                    children: [
+                        '/installation'
+                    ]
+                },
+                {
+                    title: '全栈',
                     collapsable: false,
                     children: [
                         '/installation'
@@ -29,5 +38,10 @@ module.exports = {
                 },
             ]
         }
-    }
+    },
+    plugins: [
+        '@vuepress/back-to-top',// 回到顶部
+        '@vuepress/active-header-links', // 侧边栏跟随页面滚动
+        '@vuepress/nprogress', // 进度条
+    ]
 }

@@ -18,7 +18,7 @@ module.exports = {
                     title: '前端',
                     collapsable: false,
                     children: [
-                        '/installation'
+                        '/viewport'
                     ]
                 },
                 {

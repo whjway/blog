@@ -11,6 +11,22 @@
 > 通过使用微信JS-SDK，网页开发者可借助微信高效地使用拍照、选图、语音、位置等手机系统的能力，同时可以直接使用微信分享、扫一扫、卡券、支付等微信特有的能力，为微信用户提供更优质的网页体验。  
 > 此文档面向网页开发者介绍微信JS-SDK如何使用及相关注意事项。
  ### 踩坑
+ 0. 微信授权
+ ```javascript
+/**
+ * 跳转到微信静默授权页 获取code（code会放到回调url的参数里面）
+ */
+import {APPID} from "@/config";
+
+export default function goGetCodePage({ REDIRECT_URI=location.href, STATE = "", scope ="snsapi_userinfo" }) {
+    const href = `https://open.weixin.qq.com/connect/oauth2/authorize?appid=${APPID}&redirect_uri=${encodeURIComponent(
+        REDIRECT_URI
+    )}&response_type=code&scope=${scope}&state=${STATE}#wechat_redirect`;
+    setTimeout(()=> {
+        window.location.href = href;
+    }, 200);
+}
+```
  1. 先登录微信公众平台进入“公众号设置”的“功能设置”里填写“JS接口安全域名”
  2. Vue spa (history模式) 切换页面也需要重新config
  3. IOS下分享校验的地址 是第一次打开页面的地址
@@ -58,10 +74,52 @@
 ```
 ## [微信支付](https://pay.weixin.qq.com/wiki/doc/api/H5.php?chapter=15_1)
 > H5支付是指商户在微信客户端外的移动端网页展示商品或服务，用户在前述页面确认使用微信支付时，商户发起本服务呼起微信客户端进行支付。主要用于触屏版的手机浏览器请求微信支付的场景。可以方便的从外部浏览器唤起微信支付。
- ### 踩坑
+
+### 踩坑
  1. 浏览器内支付重定向,设计好交互流程.
  2. 客户端内,建议使用APP支付,如果使用H5支付需要考虑是否支持唤醒微信,交互流程
     - 最后有单独结果页,支付重定向后跳到结果页轮询查支付结果
+
+### 测试环境配置
+1. 安装nginx并且配置代理  
+`cd /usr/local/etc/nginx/servers`
+将nginx的配置文件 xxx.conf 放到你的nginx servers目录下：
+然后在nginx配置文件中 include
+```
+//有可能你的配置文件中已经包含这行配置，请忽略
+include servers/*
+// or
+include servers/*.conf
+
+```
+```shell script
+server {
+    listen       80;
+    server_name   test.weichat.com;
+    location / {
+         # root   html;
+         index  index.html index.htm;
+         proxy_pass  http://127.0.0.1:3000;
+     }
+    location /pay {
+        # root   html;
+        index  index.html index.htm;
+        proxy_pass  http://127.0.0.1:3000/pay/;
+    }
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   html;
+    }
+}
+
+```
+2. host配置
+```
+//使用host-switch 管理工具(https://github.com/oldj/SwitchHosts/blob/master/README_cn.md)
+host-switch add test.weichat.com
+//直接在hosts文件新增
+127.0.0.1 test.weichat.com
+```
  
 ## [支付宝支付](https://opendocs.alipay.com/open/203/105285)
 > 支付宝支付 真不错!!!!
@@ -76,5 +134,7 @@
         document.forms[0].submit();
       });
 ```
-
+### [沙箱联调指南](https://opendocs.alipay.com/open/203/107096)
+ 
+1. 不能唤醒app支付,填写账号支付即可
 

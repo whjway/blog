@@ -120,7 +120,16 @@ host-switch add test.weichat.com
 //直接在hosts文件新增
 127.0.0.1 test.weichat.com
 ```
+ 3. 本地服务
  
+ ```javascript
+ devServer: {
+    disableHostCheck:true,
+    // public: "18840.dev.fygnh.com",
+    host: "0.0.0.0",
+    port: "3000",
+}
+```
 ## [支付宝支付](https://opendocs.alipay.com/open/203/105285)
 > 支付宝支付 真不错!!!!
 

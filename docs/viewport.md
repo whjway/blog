@@ -40,7 +40,7 @@
 
 ### 4 js操作dom
 
-##### Flexible源码
+## Flexible源码
 ```javascript
 ;(function(win, lib) {
     var doc = win.document;
@@ -162,6 +162,6 @@
 ```
 
 
-##### 参考文档
+## 参考文档
 
 1. [基于淘宝弹性布局方案lib-flexible的问题研究](https://www.qieseo.com/359871.html)

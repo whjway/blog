@@ -143,6 +143,7 @@ host-switch add test.weichat.com
         document.forms[0].submit();
       });
 ```
+3. return_url最大长度256,不然安卓支付成功后会报错
 ### [沙箱联调指南](https://opendocs.alipay.com/open/203/107096)
  
 1. 不能唤醒app支付,填写账号支付即可

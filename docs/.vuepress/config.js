@@ -1,7 +1,7 @@
 // const { description } = require('../../package')
 
 module.exports = {
-    title: 'whjway',
+    title: '前端知识手册',
     description: 'Blog',
     themeConfig: {
         lastUpdated: 'Last Updated', // string | boolean

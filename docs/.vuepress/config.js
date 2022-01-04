@@ -8,9 +8,9 @@ module.exports = {
             lang: 'zh-CN'
         }
     },
-    // theme: 'reco',
+    theme: 'reco',
     themeConfig: {
-        // subSidebar: 'auto',
+        subSidebar: 'auto',
         lastUpdated: 'Last Updated', // string | boolean
         smoothScroll: true,
         nav: [

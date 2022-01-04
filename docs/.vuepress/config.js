@@ -8,7 +8,9 @@ module.exports = {
             lang: 'zh-CN'
         }
     },
+    // theme: 'reco',
     themeConfig: {
+        // subSidebar: 'auto',
         lastUpdated: 'Last Updated', // string | boolean
         smoothScroll: true,
         nav: [
@@ -19,7 +21,7 @@ module.exports = {
         ],
         sidebar: [
             {
-                title: '快接入口',
+                title: '快捷入口',
                 collapsable: false,
                 children: [
                     '/quick/site'
@@ -27,10 +29,20 @@ module.exports = {
             },
             {
                 title: '前端',
-                collapsable: true,
+                collapsable: false,
                 children: [
+                    '/frontend/knowledge-system',
+                    '/frontend/choiceness',
+                    '/frontend/performance',
                     '/viewport',
                     '/wechat'
+                ]
+            },
+            {
+                title: 'Vue',
+                collapsable: true,
+                children: [
+                    '/vue/vuepress'
                 ]
             },
             {

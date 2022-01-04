@@ -29,6 +29,7 @@
     "@vuepress/theme-blog": "^2.2.0",
     "@vuepress/theme-vue": "^1.4.0",
     "vuepress": "^1.4.0",
-    "vuepress-theme-modern-blog": "^2.5.0"
+    "vuepress-theme-modern-blog": "^2.5.0",
+    "vuepress-theme-reco": "^1.6.10"
   }
 }

@@ -1,9 +1,9 @@
 # 常用网站
 
-## code
+## Code
 - [Codepan](https://codepen.io/Jun_9527/ 'Codepan')
 
-## vue
+## Vue
 - [【github】Vue仓库](https://github.com/vuejs "【github】vue仓库")  
 - [Vue2官网](https://cn.vuejs.org/v2/guide/ "vue2官网")  
 - [Vue-router3.0 官网](https://router.vuejs.org/zh/ "Vue-router3.0 官网")  
@@ -25,7 +25,8 @@
 - [【MDN】Javascript教程](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript "【MDN】Javascript教程")  
 - [ES6 阮一峰](https://es6.ruanyifeng.com/ 'ES6 阮一峰')
 
-## css
+## Css
 
 - [Flex 阮一峰](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html 'Flex 阮一峰')
+- [Animate.css](https://animate.style/ 'Animate.css')
 

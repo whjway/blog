@@ -1,6 +1,7 @@
 // const { description } = require('../../package')
 
 module.exports = {
+    base: '/whjway.github.io/',
     title: '前端知识手册',
     description: 'Blog',
     themeConfig: {

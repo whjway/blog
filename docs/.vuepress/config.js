@@ -76,18 +76,10 @@ module.exports = {
                 ]
             },
             {
-                title: '全栈',
-                collapsable: true,
-                children: [
-                    '/installation'
-                ]
-            },
-            {
                 title: '工具',
                 collapsable: true,
                 children: [
                     '/markdown',
-                    '/git'
                 ]
             },
         ]

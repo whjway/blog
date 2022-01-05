@@ -1,4 +1,6 @@
-# 手淘布局方案
+---
+title: 手淘布局方案
+---
 
 [flexible(2015 v0.3.2)](https://github.com/amfe/article/issues/17)
 

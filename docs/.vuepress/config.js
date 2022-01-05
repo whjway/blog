@@ -64,8 +64,29 @@ module.exports = {
                     '/frontend/knowledge-system',
                     '/frontend/choiceness',
                     '/frontend/performance',
-                    '/viewport',
-                    '/wechat'
+                    {
+                        title: 'HTML',
+                        children:[
+                            '/frontend/html/choiceness'
+                        ]
+                    },
+                ]
+            },
+            {
+                title: '移动端',
+                collapsable: false,
+                children: [
+                    '/mobile/viewport',
+                    '/mobile/choiceness'
+                ]
+            },
+            {
+                title: '微信生态',
+                collapsable: false,
+                children: [
+                    '/wechat/wechat',
+                    '/wechat/choiceness'
+
                 ]
             },
             {

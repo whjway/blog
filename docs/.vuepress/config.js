@@ -70,6 +70,12 @@ module.exports = {
                             '/frontend/html/choiceness'
                         ]
                     },
+                    {
+                        title: 'CSS',
+                        children:[
+                            '/frontend/css/choiceness'
+                        ]
+                    },
                 ]
             },
             {

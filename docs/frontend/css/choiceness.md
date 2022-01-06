@@ -1,9 +1,9 @@
 ---
-title: HTML 精选文章
+title: CSS 精选文章
 ---
 
 ## 总结
-- [【语雀】HTML知识体系](https://blog.csdn.net/weixin_34234823/article/details/93165723 'HTML知识体系')
+- [【语雀】CSS知识体系](https://www.yuque.com/docs/share/5524e7f0-1282-4d18-ae8c-8fb1a145ecee 'CSS知识体系')
 
 
 ## 精选

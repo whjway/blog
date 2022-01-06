@@ -2,7 +2,7 @@
 
 module.exports = {
     title: '前端知识手册',
-    description: '前端知识手册 whjway',
+    description: '前端知识手册 html css js JavaScript 移动端 微信 wechat vue vuepress markdown git',
     locales: {
         '/': {
             lang: 'zh-CN'
@@ -76,23 +76,41 @@ module.exports = {
                             '/frontend/css/choiceness'
                         ]
                     },
+                    {
+                        title: 'JavaScript',
+                        children:[
+                            '/frontend/javascript/choiceness'
+                        ]
+                    },
+                    {
+                        title: 'ECMAScript6',
+                        children:[
+                            '/frontend/es6/choiceness'
+                        ]
+                    },
                 ]
             },
             {
                 title: '移动端',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     '/mobile/viewport',
-                    '/mobile/choiceness'
+                    '/mobile/choiceness',
                 ]
             },
             {
                 title: '微信生态',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     '/wechat/wechat',
                     '/wechat/choiceness'
-
+                ]
+            },
+            {
+                title: '小程序',
+                collapsable: true,
+                children: [
+                    '/mini/choiceness'
                 ]
             },
             {
@@ -100,6 +118,20 @@ module.exports = {
                 collapsable: true,
                 children: [
                     '/vue/vuepress'
+                ]
+            },
+            {
+                title: '设计模式',
+                collapsable: true,
+                children: [
+                    '/design-pattern/choiceness'
+                ]
+            },
+            {
+                title: '数据结构与算法',
+                collapsable: true,
+                children: [
+                    '/data-algorithms/choiceness'
                 ]
             },
             {

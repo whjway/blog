@@ -1,7 +1,6 @@
 ---
-title: 公众号开发
+title: 微信公众号开发
 ---
-
 
 ## [微信公众平台测试账号申请](https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index)
 ### 踩坑
@@ -15,7 +14,7 @@ title: 公众号开发
 > 此文档面向网页开发者介绍微信JS-SDK如何使用及相关注意事项。
  ### 踩坑
  0. 微信授权
- ```javascript
+ ```JavaScript
 /**
  * 跳转到微信静默授权页 获取code（code会放到回调url的参数里面）
  */
@@ -33,7 +32,7 @@ export default function goGetCodePage({ REDIRECT_URI=location.href, STATE = "", 
  1. 先登录微信公众平台进入“公众号设置”的“功能设置”里填写“JS接口安全域名”
  2. Vue spa (history模式) 切换页面也需要重新config
  3. IOS下分享校验的地址 是第一次打开页面的地址
- ```javascript
+ ```JavaScript
     if (!window.pageUrl) {
         window.pageUrl = location.href.split("#")[0];
     }
@@ -46,7 +45,7 @@ export default function goGetCodePage({ REDIRECT_URI=location.href, STATE = "", 
     - permission denied该公众号没有权限使用这个JSAPI 要么config没配置对应权限,要么config失败 二次分享等都不能正常使用
 
  5. 微信内支付
- ```javascript
+ ```JavaScript
     // 下单后接口返回对应参数 paySign不建议暴露
     const {
         pack,appId,timeStamp,nonceStr, signType, paySign
@@ -125,7 +124,7 @@ host-switch add test.weichat.com
 ```
  3. 本地服务
  
- ```javascript
+ ```JavaScript
  devServer: {
     disableHostCheck:true,
     // public: "18840.dev.fygnh.com",
@@ -140,7 +139,7 @@ host-switch add test.weichat.com
 
 1. 添加支付成功后的回调, 入参增加return_url
 2. 使用方法, 支付宝返回form表单    
-```javascript
+```JavaScript
       this.aliPayForm = data.body;
       this.$nextTick(() => {
         document.forms[0].submit();

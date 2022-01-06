@@ -24,7 +24,7 @@ title: 常用网站
 
 ## JS
 
-- [【MDN】Javascript教程](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript "【MDN】Javascript教程")  
+- [【MDN】JavaScript教程](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript "【MDN】JavaScript教程")  
 - [ES6 阮一峰](https://es6.ruanyifeng.com/ 'ES6 阮一峰')
 
 ## Css

@@ -121,6 +121,13 @@ module.exports = {
                 ]
             },
             {
+                title: '浏览器',
+                collapsable: true,
+                children: [
+                    '/browser/choiceness'
+                ]
+            },
+            {
                 title: '设计模式',
                 collapsable: true,
                 children: [

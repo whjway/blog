@@ -91,6 +91,20 @@ module.exports = {
                 ]
             },
             {
+                title: 'Vue',
+                collapsable: true,
+                children: [
+                    '/vue/vuepress'
+                ]
+            },
+            {
+                title: 'Node',
+                collapsable: true,
+                children: [
+                    '/node/choiceness'
+                ]
+            },
+            {
                 title: '移动端',
                 collapsable: true,
                 children: [
@@ -114,17 +128,17 @@ module.exports = {
                 ]
             },
             {
-                title: 'Vue',
-                collapsable: true,
-                children: [
-                    '/vue/vuepress'
-                ]
-            },
-            {
                 title: '浏览器',
                 collapsable: true,
                 children: [
                     '/browser/choiceness'
+                ]
+            },
+            {
+                title: '工程化-基础建设',
+                collapsable: true,
+                children: [
+                    '/engineering/tools'
                 ]
             },
             {

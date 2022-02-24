@@ -138,7 +138,7 @@ module.exports = {
                 title: '工程化-基础建设',
                 collapsable: true,
                 children: [
-                    '/engineering/tools'
+                    '/engineering/choiceness'
                 ]
             },
             {

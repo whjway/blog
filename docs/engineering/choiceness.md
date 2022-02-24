@@ -3,12 +3,14 @@ title: 精选文章
 ---
 
 ## webpack
+- [webpack 中文网](https://v4.webpack.docschina.org/concepts/ 'webpack 中文网')
 - [【极客时间】玩转 webpack](https://time.geekbang.org/course/intro/100028901 '【极客时间】玩转 webpack')
 
 ## vite
 - [【掘金】深入理解Vite核心原理](https://juejin.cn/post/7064853960636989454 '来自未来，2022 年的前端人都在做什么?')
 
-## CI
+## CI/CD
+- [CI/CD是什么？如何理解持续集成、持续交付和持续部署](https://www.redhat.com/zh/topics/devops/what-is-ci-cd 'CI/CD是什么？如何理解持续集成、持续交付和持续部署')
 - [GitHub Actions](https://docs.github.com/cn/actions/quickstart 'GitHub Actions')
 - [GitHub Actions 入门教程](https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html 'GitHub Actions 入门教程')
   

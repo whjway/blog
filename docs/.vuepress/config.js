@@ -54,7 +54,8 @@ module.exports = {
                 title: '快捷入口',
                 collapsable: false,
                 children: [
-                    '/quick/site'
+                    '/quick/site',
+                    '/quick/best-practice'
                 ]
             },
             {
@@ -85,6 +86,15 @@ module.exports = {
                     {
                         title: 'ECMAScript6',
                         children:[
+                            // '/frontend/es6/knowledge-system',
+                          {
+                            title: '知识体系',
+                            children:[
+                              '/frontend/es6/details/variable',
+                              '/frontend/es6/details/proxy',
+                              '/frontend/es6/details/reflect',
+                            ]
+                          },
                             '/frontend/es6/choiceness'
                         ]
                     },

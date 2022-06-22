@@ -8,6 +8,8 @@ title: ES6 精选文章
 
 
 ## 精选
+
+- [【掘金】花一个小时，迅速了解ES6~ES12的全部特性](https://juejin.cn/post/7068935394191998990 '花一个小时，迅速了解ES6~ES12的全部特性')
 - [🌟冴羽的博客](https://github.com/mqyqingfeng/Blog '冴羽的博客')
 - [JavaScript ES6 核心功能一览（ES6 亦作 ECMAScript 6 或 ES2015+）](https://github.com/xitu/gold-miner/blob/master/TODO/Overview-of-JavaScript-ES6-features-a-k-a-ECMAScript-6-and-ES2015.md 'JavaScript ES6 核心功能一览（ES6 亦作 ECMAScript 6 或 ES2015+）')
 - [你会用ES6，那倒是用啊！](https://juejin.cn/post/7016520448204603423 '你会用ES6，那倒是用啊！')

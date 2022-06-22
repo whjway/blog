@@ -6,6 +6,13 @@ title: 精选文章
 - [webpack 中文网](https://v4.webpack.docschina.org/concepts/ 'webpack 中文网')
 - [【极客时间】玩转 webpack](https://time.geekbang.org/course/intro/100028901 '【极客时间】玩转 webpack')
 
+- [yargs](https://www.npmjs.com/package/yargs 'yargs')
+- [tapable](https://www.npmjs.com/package/tapable 'tapable')
+
+## babel
+- [Babel](https://babel.dev/docs/en/ 'Babel')
+- [关于babel的详细解读(精华又通俗)](https://juejin.cn/post/6844904199554072583 '关于babel的详细解读(精华又通俗)')
+
 ## vite
 - [【掘金】深入理解Vite核心原理](https://juejin.cn/post/7064853960636989454 '来自未来，2022 年的前端人都在做什么?')
 

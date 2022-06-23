@@ -98,6 +98,7 @@ y<sup>z</sup>
 ![markdown](https://www.mdeditor.com/images/logos/markdown.png "markdown")
 ```
 ## 锚点、链接 Links
+[文档内部锚点](#标题)  
 [普通链接](https://github.com/whjway)  
 [普通链接带标题](https://github.com/whjway "普通链接带标题")  
 直接链接：<https://github.com/whjway>  
@@ -105,6 +106,7 @@ y<sup>z</sup>
 
 [anchor-id]: https://github.com/whjway
 ```markdown
+[文档内部锚点](#标题)
 [普通链接](https://github.com/whjway)  
 [普通链接带标题](https://github.com/whjway "普通链接带标题")  
 直接链接：<https://github.com/whjway>  
@@ -136,7 +138,7 @@ $(document).ready(function () {
     alert('markdown');
 });
 ``` 
-```JavaScript
+```javascript
 $(document).ready(function () {
     alert('markdown');
 });

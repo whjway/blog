@@ -11,7 +11,7 @@ Proxy 用于修改某些操作的默认行为，等同于在语言层面上做�
 Proxy可以译为“代理器”  
 
 ### 声明
-```JavaScript
+```javascript
 const proxy = new Proxy(target, handler);
 ```
 - target: 拦截对象

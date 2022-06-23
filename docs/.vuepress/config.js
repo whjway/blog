@@ -91,6 +91,7 @@ module.exports = {
                             title: '知识体系',
                             children:[
                               '/frontend/es6/details/variable',
+                              '/frontend/es6/details/destructring',
                               '/frontend/es6/details/proxy',
                               '/frontend/es6/details/reflect',
                             ]

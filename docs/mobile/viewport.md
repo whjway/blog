@@ -21,7 +21,7 @@ title: 手淘布局方案
 响应式布局两个条件
 1. 视口宽度与device-width相同`<meta name="viewport" content="width=device-width, initial-scale=1">`
 2. 媒体查询
-```JavaScript
+```javascript
 @media (max-width: @screen-xs-max) { ... }
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
 @media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
@@ -43,7 +43,7 @@ title: 手淘布局方案
 ### 4 js操作dom
 
 ## Flexible源码
-```JavaScript
+```javascript
 ;(function(win, lib) {
     var doc = win.document;
     var docEl = doc.documentElement;

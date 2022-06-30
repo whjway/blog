@@ -92,6 +92,7 @@ module.exports = {
                             children:[
                               '/frontend/es6/details/variable',
                               '/frontend/es6/details/destructring',
+                              '/frontend/es6/details/promise',
                               '/frontend/es6/details/proxy',
                               '/frontend/es6/details/reflect',
                             ]

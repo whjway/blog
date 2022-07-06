@@ -227,7 +227,7 @@ async function logInOrder(urls) {
 ```
 5.  `async` 函数可以保留运行堆栈。
 
-### 顶层 await
+### 顶层 await 【ES2022】
 
 ## 示例
 <p class="codepen" data-height="600" data-theme-id="dark" data-default-tab="js" data-slug-hash="eYMmQWG" data-user="Jun_9527" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">

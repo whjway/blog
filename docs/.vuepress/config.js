@@ -173,6 +173,7 @@ module.exports = {
                 collapsable: true,
                 children: [
                     '/markdown',
+                    '/git',
                 ]
             },
         ]

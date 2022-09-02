@@ -107,7 +107,8 @@ module.exports = {
                 title: 'Vue',
                 collapsable: true,
                 children: [
-                    '/vue/vuepress'
+                    '/vue/vuepress',
+                    '/vue/vue3',
                 ]
             },
             {

@@ -45,7 +45,7 @@ title: vue3 项目总结
 
 ### todo
 
-- [x]   vuex替换成pinia，参考pinia分支
+- [x] vuex替换成pinia，参考pinia分支
 - [x] `setup`语法糖使用，参数setup分支
   - [x]  [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) `API`自动导入，`vue`/`vue-router`/`@/store`(`unplugin-vue-components`已自动导入`vant`)
   - [x] eslint校验 兼容`defineExpose`等(升级cli5后已兼容)

@@ -180,9 +180,16 @@ module.exports = {
         ]
     },
     plugins: [
-        // '@vuepress/back-to-top',// 回到顶部
-        // '@vuepress/active-header-links', // 侧边栏跟随页面滚动
-        // '@vuepress/nprogress', // 进度条
+        [
+            "md-enhance",
+            {
+                // enableAll:true,
+                tasklist: true,// 启用任务列表
+            }
+        ],
+        '@vuepress/back-to-top',// 回到顶部
+        '@vuepress/active-header-links', // 侧边栏跟随页面滚动
+        '@vuepress/nprogress', // 进度条
     ],
 
 }

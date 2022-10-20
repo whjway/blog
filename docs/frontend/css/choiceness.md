@@ -2,11 +2,9 @@
 title: CSS 精选文章
 ---
 
-## 总结
-- [【语雀】CSS知识体系](https://www.yuque.com/docs/share/5524e7f0-1282-4d18-ae8c-8fb1a145ecee 'CSS知识体系')
-
 
 ## 精选
+
 - [HTML5语义化开发指南](https://blog.csdn.net/weixin_34234823/article/details/93165723 'HTML5语义化开发指南')
 - [【掘金】HTML标签语义化与SEO](https://juejin.cn/post/6876826035946684424 '【掘金】HTML标签语义化与SEO')
 - [🌟【掘金】meta标签到底是做什么的|我竟一无所知](https://juejin.cn/post/6987919006468407309 '【掘金】meta标签到底是做什么的|我竟一无所知')

@@ -22,13 +22,14 @@
   },
   "homepage": "https://github.com/whjway/whj-blog#readme",
   "devDependencies": {
-    "@vuepress/plugin-active-header-links": "^1.4.0",
+    "@vuepress/plugin-active-header-links": "^1.9.7",
     "@vuepress/plugin-back-to-top": "^1.4.0",
     "@vuepress/plugin-blog": "^1.9.2",
     "@vuepress/plugin-nprogress": "^1.4.0",
     "@vuepress/theme-blog": "^2.2.0",
     "@vuepress/theme-vue": "^1.4.0",
     "vuepress": "^1.4.0",
+    "vuepress-plugin-md-enhance": "^1.30.0",
     "vuepress-theme-modern-blog": "^2.5.0",
     "vuepress-theme-reco": "^1.6.10"
   }

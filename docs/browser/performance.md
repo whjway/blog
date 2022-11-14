@@ -18,6 +18,8 @@ title: 前端 性能优化
 - [Cumulative Layout Shift 累积布局偏移 (CLS)](https://web.dev/cls/)
 - [优化 Cumulative Layout Shift 累积布局偏移](https://web.dev/optimize-cls/#images-without-dimensions)
 
+## [浏览器页面资源加载过程与优化](https://juejin.cn/post/6844903545016156174)
+
 ## [preload和prefetch](https://www.jb51.net/article/253659.htm)
 
 ## [defer和async](https://blog.csdn.net/weixin_46544034/article/details/123146915)
@@ -29,3 +31,4 @@ title: 前端 性能优化
   - [MDN animation](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
   - [【掘金】CSS变形（transform）、过渡（transition）、动画（animation）详解](https://juejin.cn/post/6961801671189987359)
 - [How to create high-performance CSS animations](https://web.dev/animations-guide/)
+- [Why are some animations slow?](https://web.dev/animations-overview/)

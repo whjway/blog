@@ -5,6 +5,10 @@ title: 精选文章
 ## webpack
 
 - [webpack 中文网](https://v4.webpack.docschina.org/concepts/ "webpack 中文网")
+  - [v5 sourcemap](https://webpack.docschina.org/configuration/devtool/#root)
+  - [v4 sourcemap](https://v4.webpack.docschina.org/configuration/devtool/#root)
+  - [彻底搞懂 Webpack 的 sourcemap 配置原理](https://juejin.cn/post/7136049758837145630)
+
 - [【极客时间】玩转 webpack](https://time.geekbang.org/course/intro/100028901 "【极客时间】玩转 webpack")
 
 - [yargs](https://www.npmjs.com/package/yargs "yargs")
@@ -45,3 +49,12 @@ title: 精选文章
 - [看了 9 个开源的 Vue3 组件库，发现了这些前端的流行趋势](https://juejin.cn/post/7092766235380678687 "看了 9 个开源的 Vue3 组件库，发现了这些前端的流行趋势")
 
 - [pnpm](https://pnpm.io/zh/pnpm-vs-npm)
+
+## 前端监控
+
+-[fundebug](https://www.fundebug.com/)
+-[sentry](https://docs.sentry.io/)
+  -[【掘金】Sentry介绍与使用](https://juejin.cn/post/6844904143090352135)
+  -[【掘金】使用 Sentry 做异常监控](https://juejin.cn/post/7143142055294795807)
+-[应用性能监控全链路版](https://console.volcengine.com/apmplus/webpage/performance/slow/?aid=164155&filters=%7B%22type%22%3A%22and%22%2C%22sub_conditions%22%3A%5B%5D%7D&org_id=2000012437&time=%7B%22granularity%22%3A%22hour%22%2C%22duration%22%3A%22recently%22%2C%22range%22%3A1%7D)
+  -[应用性能前端监控，字节跳动这些年经验都在这了](https://juejin.cn/post/7010647775880708133)

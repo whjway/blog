@@ -64,7 +64,6 @@ module.exports = {
                 children: [
                     '/frontend/knowledge-system',
                     '/frontend/choiceness',
-                    '/frontend/performance',
                     {
                         title: 'HTML',
                         children:[
@@ -112,6 +111,23 @@ module.exports = {
                 ]
             },
             {
+                title: '浏览器',
+                collapsable: true,
+                children: [
+                    '/browser/choiceness',
+                    '/browser/performance',
+                    '/browser/page-optimize',
+                ]
+            },
+            {
+                title: '工程化-基础建设',
+                collapsable: true,
+                children: [
+                    '/engineering/choiceness',
+                    '/engineering/sentry'
+                ]
+            },
+            {
                 title: 'Node',
                 collapsable: true,
                 children: [
@@ -139,20 +155,6 @@ module.exports = {
                 collapsable: true,
                 children: [
                     '/mini/choiceness'
-                ]
-            },
-            {
-                title: '浏览器',
-                collapsable: true,
-                children: [
-                    '/browser/choiceness'
-                ]
-            },
-            {
-                title: '工程化-基础建设',
-                collapsable: true,
-                children: [
-                    '/engineering/choiceness'
                 ]
             },
             {

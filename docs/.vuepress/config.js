@@ -128,7 +128,7 @@ module.exports = {
                 ]
             },
             {
-                title: 'Node',
+                title: '服务端',
                 collapsable: true,
                 children: [
                     '/node/choiceness'

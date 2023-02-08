@@ -34,8 +34,7 @@ sudo yum-config-manager \
     https://download.docker.com/linux/centos/docker-ce.repo
 ```
 
-> 报错 `Could not fetch/save url https://download.docker.com/linux/centos/docker-ce.repo to file /etc/yum.repos.d/docker-ce.repo: [Errno 14] curl#6 - "Could not resolve host: download.docker.com; 未知的错误"`
-
+> 报错 `Could not fetch/save url https://download.docker.com/linux/centos/docker-ce.repo to file /etc/yum.repos.d/docker-ce.repo: [Errno 14] curl#6 - "Could not resolve host: download.docker.com; 未知的错误"`  
 >解决办法：
     1.`vim /etc/sysconfig/network-scripts/ifcfg-ens33`
     2.DNS1=8.8.8.8
